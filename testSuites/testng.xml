@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+	<!--<groups>
+		<run>
+			<include name="Purchase"></include>
+		</run>
+	</groups>-->
+
+	<listeners>
+		<listener class-name="frameworkDesign.testComponents.ListenersTest"></listener>
+	</listeners>
+
+	<test thread-count="5" name="PlaceOrderTest">
+		<classes>
+			<class name="frameworkDesign.tests.PlaceOrderTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="ErrorValidationsTest">
+		<classes>
+			<class name="frameworkDesign.tests.ErrorValidations" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+[
+    {
+        "emailId": "qatestprac@gmail.com",
+        "password": "Qa@rahul0",
+        "loginSuccessMessage": "Login Successfully",
+        "productName": "ZARA COAT 3"
+    },
+    {
+        "emailId": "practest@gmail.com",
+        "password": "Qa@Test0",
+        "loginSuccessMessage": "Login Successfully",
+        "productName": "ADIDAS ORIGINAL"
+    }
+]
